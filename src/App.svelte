@@ -1,6 +1,7 @@
 <script>
   import src from './assets/svelte.png'
   import Counter from './lib/Counter.svelte'
+  import Sum from './lib/Sum.svelte';
 </script>
 
 <main>
@@ -8,6 +9,7 @@
   <h1>Hello world!</h1>
 
   <Counter />
+  <Sum />
 
   <p>
     Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
