@@ -2,6 +2,7 @@
   import src from './assets/svelte.png'
   import Counter from './lib/Counter.svelte'
   import Sum from './lib/Sum.svelte';
+  import ExternalState from './lib/ExternalState.svelte';
 </script>
 
 <main>
@@ -10,6 +11,7 @@
 
   <Counter />
   <Sum />
+  <ExternalState sum={26} />
 
   <p>
     Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
