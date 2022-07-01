@@ -3,7 +3,14 @@
   const increment = () => {
     count += 1
   }
+  
   $: double = count * 2;
+
+  $: {
+    alert(count)
+    console.log('the count is ' + count)
+  }
+
 </script>
 
 <button on:click={increment}>
