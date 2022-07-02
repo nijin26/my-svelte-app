@@ -3,12 +3,16 @@
   const increment = () => {
     count += 1
   }
-  
+
   $: double = count * 2;
 
-  $: {
-    alert(count)
-    console.log('the count is ' + count)
+  // $: {
+  //   alert(count)
+  //   console.log('the count is ' + count)
+  // }
+
+  $: if(count < 10) {
+    console.log(count)
   }
 
 </script>
