@@ -3,7 +3,7 @@
 </script>
 
 <ul>
-    {#each users as user }
+    {#each users as user (user.id) }
     <li>{user.id}. {user.name} of age {user.age}</li>
     {/each}
 </ul>
