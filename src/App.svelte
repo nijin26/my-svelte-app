@@ -1,5 +1,5 @@
 <script>
-import ConditionalBlocks from "./lib/ConditionalBlocks.svelte";
+    import EachBlock from "./lib/EachBlock.svelte";
 </script>
 
-<ConditionalBlocks grade={85} />
+<EachBlock />
