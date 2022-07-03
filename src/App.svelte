@@ -1,5 +1,6 @@
 <script>
-    import EachBlock from "./lib/EachBlock.svelte";
+    import Await from "./lib/Await.svelte";
+
 </script>
 
-<EachBlock />
+<Await />
